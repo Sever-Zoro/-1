@@ -1,6 +1,7 @@
 import java.util.Scanner;
  class Main {
      public static void start() {
+         while (true) {
          Scanner scan = new Scanner(System.in);
          System.out.println("Кальулятор:");
             System.out.println("1. Сложение");
@@ -71,6 +72,7 @@ import java.util.Scanner;
             else {
                 System.out.println("Вы ввели не корректное значение меню.");
             }
+         }
         }
     public static void main(String[] args) {
         start();
